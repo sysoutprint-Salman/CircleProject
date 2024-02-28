@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class MyFrame extends JFrame {
+public class MyFrame extends JFrame { //This constructor creates a pop-up window whenever the application runs.
     MyFrame(){
         this.add(new MyPanel());
         this.setTitle("Frame");
