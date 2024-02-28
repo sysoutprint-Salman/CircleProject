@@ -9,7 +9,7 @@ public class MyPanel extends JPanel {
 
     int input = scan.nextInt();
 
-    MyPanel(){ //Creating a pop-up screen to then show results
+    MyPanel(){ 
         this.setBackground(Color.BLACK);
         this.setPreferredSize(new Dimension(420, 420));
     }
